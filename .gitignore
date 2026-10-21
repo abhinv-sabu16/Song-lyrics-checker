@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Environment
+.env
+.env.local
+
+# Local data, models, uploads
+data/*
+!data/.gitkeep
+models/
+uploads/
+tmp/
+*.db
+*.sqlite3
