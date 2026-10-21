@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI(title="Song Lyric Checker API", version="0.1.0")
+from routers.search import router as search_router
+from schemas import HealthResponse
+
+app = FastAPI(title="Song Lyric Checker API", version="0.2.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -10,7 +13,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(search_router)
 
-@app.get("/health")
-def health() -> dict:
-    return {"status": "ok"}
+
+@app.get("/health", response_model=HealthResponse)
+def health() -> HealthResponse:
+    return HealthResponse(status="ok")
