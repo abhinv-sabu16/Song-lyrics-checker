@@ -48,3 +48,11 @@ def get_session() -> Iterator[Session]:
         raise
     finally:
         session.close()
+
+def get_db() -> Iterator[Session]:
+    """FastAPI dependency: one session per request."""
+    session = SessionLocal()
+    try:
+        yield session
+    finally:
+        session.close()
