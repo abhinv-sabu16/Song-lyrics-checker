@@ -15,6 +15,7 @@ frontend/.next/
 # Local data, models, uploads
 data/*
 !data/.gitkeep
+!data/sample_lyrics.json
 models/
 uploads/
 tmp/

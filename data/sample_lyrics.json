@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Monsoon Window",
+    "artist": "Test Artist One",
+    "language": "en",
+    "source": "original test data",
+    "license": "original",
+    "lines": [
+      "Rain is tapping on my window pane",
+      "Chai is steaming in the evening light",
+      "Nothing to carry but the quiet",
+      "Everything is washed and bright"
+    ]
+  },
+  {
+    "title": "Paper Boats",
+    "artist": "Test Artist One",
+    "language": "en",
+    "source": "original test data",
+    "license": "original",
+    "lines": [
+      "Fold a paper boat and let it go",
+      "Down the river where the lanterns glow",
+      "Tiny sail against the open sky",
+      "Wave goodbye as the current drifts by"
+    ]
+  },
+  {
+    "title": "Midnight Train Home",
+    "artist": "Test Artist Two",
+    "language": "en",
+    "source": "original test data",
+    "license": "original",
+    "lines": [
+      "Midnight train is rolling through the hills",
+      "Every station dark and sleeping still",
+      "I count the stars to pass the hours away",
+      "Home is waiting at the break of day"
+    ]
+  },
+  {
+    "title": "Amazing Grace",
+    "artist": "John Newton",
+    "language": "en",
+    "source": "public domain (1779 hymn)",
+    "license": "public-domain",
+    "lines": [
+      "Amazing grace how sweet the sound",
+      "That saved a wretch like me",
+      "I once was lost but now am found",
+      "Was blind but now I see"
+    ]
+  }
+]
